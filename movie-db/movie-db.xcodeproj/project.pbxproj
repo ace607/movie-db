@@ -231,13 +231,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84E6038824AF0A6A009B6CAD /* HomepageBaukasten-Medium.ttf in Resources */,
-				84E6038524AF0A52009B6CAD /* HomepageBaukasten-Bold.ttf in Resources */,
 				84E6037524AF0539009B6CAD /* LaunchScreen.storyboard in Resources */,
-				84E6038D24AF0E11009B6CAD /* MovieCollectionViewCell.xib in Resources */,
-				84E6038124AF098B009B6CAD /* HeaderCollectionViewCell.xib in Resources */,
 				84E6037224AF0539009B6CAD /* Assets.xcassets in Resources */,
-				84E6038624AF0A52009B6CAD /* HomepageBaukasten-Book.ttf in Resources */,
 				84E6036D24AF0531009B6CAD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,8 +246,6 @@
 			files = (
 				84E6036A24AF0531009B6CAD /* ViewController.swift in Sources */,
 				84E6036624AF0531009B6CAD /* AppDelegate.swift in Sources */,
-				84E6038024AF098B009B6CAD /* HeaderCollectionViewCell.swift in Sources */,
-				84E6038C24AF0E11009B6CAD /* MovieCollectionViewCell.swift in Sources */,
 				84E6037024AF0531009B6CAD /* movie_db.xcdatamodeld in Sources */,
 				4F1E6D1B24AF096E00CDA5C6 /* TabBarController.swift in Sources */,
 				84E6036824AF0531009B6CAD /* SceneDelegate.swift in Sources */,
