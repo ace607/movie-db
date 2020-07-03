@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="8R5-ra-X0c">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Item-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="movie_db" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="YMK-Fn-dRG"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="852.17391304347836" y="129.91071428571428"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="JOB-Lu-41X">
+            <objects>
+                <viewController id="tQ3-De-zvF" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4L1-pO-6f1">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="GXc-Al-07c"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="ld6-Uo-rgu"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LRm-Iy-sW2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1701" y="-126"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="scg-QS-0Na">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="8R5-ra-X0c" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="WiX-x6-CNG">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="Eed-ZG-bPY"/>
+                        <segue destination="tQ3-De-zvF" kind="relationship" relationship="viewControllers" id="Xxf-iO-d8H"/>
+                        <segue destination="Wct-La-n1R" kind="relationship" relationship="viewControllers" id="UeK-V2-Zmd"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zx1-BE-R83" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="39" y="130"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="ClC-KY-Q6S">
+            <objects>
+                <viewController id="Wct-La-n1R" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Dy2-nN-yFc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="dtQ-dR-kcP"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="re6-Hb-oxU"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uTS-48-nR1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1700" y="609"/>
+        </scene>
+    </scenes>
+</document>
