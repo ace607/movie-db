@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F1E6D1B24AF096E00CDA5C6 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1E6D1A24AF096E00CDA5C6 /* TabBarController.swift */; };
+		4F1E6D1E24AF0A7A00CDA5C6 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1E6D1D24AF0A7A00CDA5C6 /* UIColorExtension.swift */; };
 		84E6036624AF0531009B6CAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E6036524AF0531009B6CAD /* AppDelegate.swift */; };
 		84E6036824AF0531009B6CAD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E6036724AF0531009B6CAD /* SceneDelegate.swift */; };
 		84E6036A24AF0531009B6CAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E6036924AF0531009B6CAD /* ViewController.swift */; };
@@ -24,6 +26,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4F1E6D1A24AF096E00CDA5C6 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		4F1E6D1D24AF0A7A00CDA5C6 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		84E6036224AF0531009B6CAD /* movie-db.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "movie-db.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84E6036524AF0531009B6CAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84E6036724AF0531009B6CAD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,6 +57,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4F1E6D1C24AF0A5C00CDA5C6 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4F1E6D1D24AF0A7A00CDA5C6 /* UIColorExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		84E6035924AF0530009B6CAD = {
 			isa = PBXGroup;
 			children = (
@@ -72,8 +84,12 @@
 		84E6036424AF0531009B6CAD /* movie-db */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				84E6038224AF0A3B009B6CAD /* Fonts */,
 				84E6037C24AF0921009B6CAD /* cells */,
+=======
+				4F1E6D1C24AF0A5C00CDA5C6 /* Extension */,
+>>>>>>> 388bc4591208e25438685687cc00095ff8e24d52
 				84E6036524AF0531009B6CAD /* AppDelegate.swift */,
 				84E6036724AF0531009B6CAD /* SceneDelegate.swift */,
 				84E6036924AF0531009B6CAD /* ViewController.swift */,
@@ -82,6 +98,7 @@
 				84E6037324AF0539009B6CAD /* LaunchScreen.storyboard */,
 				84E6037624AF0539009B6CAD /* Info.plist */,
 				84E6036E24AF0531009B6CAD /* movie_db.xcdatamodeld */,
+				4F1E6D1A24AF096E00CDA5C6 /* TabBarController.swift */,
 			);
 			path = "movie-db";
 			sourceTree = "<group>";
@@ -204,7 +221,9 @@
 				84E6038024AF098B009B6CAD /* HeaderCollectionViewCell.swift in Sources */,
 				84E6038C24AF0E11009B6CAD /* MovieCollectionViewCell.swift in Sources */,
 				84E6037024AF0531009B6CAD /* movie_db.xcdatamodeld in Sources */,
+				4F1E6D1B24AF096E00CDA5C6 /* TabBarController.swift in Sources */,
 				84E6036824AF0531009B6CAD /* SceneDelegate.swift in Sources */,
+				4F1E6D1E24AF0A7A00CDA5C6 /* UIColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,6 +369,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "movie-db/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -367,6 +387,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "movie-db/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
