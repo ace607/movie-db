@@ -9,10 +9,15 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    var apiService = APIService()
+    
+    var movies = [Movie]()
 
     @IBOutlet weak var moviesCollection: UICollectionView!
     override func viewDidLoad() {
         super.viewDidLoad()
+<<<<<<< HEAD
         // Do any additional setup after loading the view.
         
         moviesCollection.dataSource = self
@@ -23,6 +28,18 @@ class ViewController: UIViewController {
         
         moviesCollection.register(UINib(nibName: "HeaderCollectionViewCell", bundle: Bundle.main), forCellWithReuseIdentifier: "header_cell")
         moviesCollection.register(UINib(nibName: "MovieCollectionViewCell", bundle: Bundle.main), forCellWithReuseIdentifier: "movie_cell")
+=======
+        
+        apiService.getPopularMovies { (movies) in
+            self.movies.append(contentsOf: movies.movies)
+            //print(movies)
+        }
+        
+        apiService.getTopRatedMovie { (movie) in
+            print(movie)
+        }
+        
+>>>>>>> origin/khatia
     }
 
 

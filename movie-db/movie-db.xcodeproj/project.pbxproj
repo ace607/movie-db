@@ -16,6 +16,7 @@
 		84E6037024AF0531009B6CAD /* movie_db.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84E6036E24AF0531009B6CAD /* movie_db.xcdatamodeld */; };
 		84E6037224AF0539009B6CAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84E6037124AF0539009B6CAD /* Assets.xcassets */; };
 		84E6037524AF0539009B6CAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E6037324AF0539009B6CAD /* LaunchScreen.storyboard */; };
+<<<<<<< HEAD
 		84E6038024AF098B009B6CAD /* HeaderCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E6037E24AF098B009B6CAD /* HeaderCollectionViewCell.swift */; };
 		84E6038124AF098B009B6CAD /* HeaderCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84E6037F24AF098B009B6CAD /* HeaderCollectionViewCell.xib */; };
 		84E6038524AF0A52009B6CAD /* HomepageBaukasten-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84E6038324AF0A52009B6CAD /* HomepageBaukasten-Bold.ttf */; };
@@ -23,6 +24,10 @@
 		84E6038824AF0A6A009B6CAD /* HomepageBaukasten-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84E6038724AF0A6A009B6CAD /* HomepageBaukasten-Medium.ttf */; };
 		84E6038C24AF0E11009B6CAD /* MovieCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E6038A24AF0E11009B6CAD /* MovieCollectionViewCell.swift */; };
 		84E6038D24AF0E11009B6CAD /* MovieCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84E6038B24AF0E11009B6CAD /* MovieCollectionViewCell.xib */; };
+=======
+		D859F28124AF099B001CD4CA /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = D859F28024AF099B001CD4CA /* Movie.swift */; };
+		D859F28424AF0A23001CD4CA /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D859F28324AF0A23001CD4CA /* APIService.swift */; };
+>>>>>>> origin/khatia
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +42,7 @@
 		84E6037124AF0539009B6CAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84E6037424AF0539009B6CAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84E6037624AF0539009B6CAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		84E6037E24AF098B009B6CAD /* HeaderCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCollectionViewCell.swift; sourceTree = "<group>"; };
 		84E6037F24AF098B009B6CAD /* HeaderCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderCollectionViewCell.xib; sourceTree = "<group>"; };
 		84E6038324AF0A52009B6CAD /* HomepageBaukasten-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HomepageBaukasten-Bold.ttf"; sourceTree = "<group>"; };
@@ -44,6 +50,10 @@
 		84E6038724AF0A6A009B6CAD /* HomepageBaukasten-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HomepageBaukasten-Medium.ttf"; sourceTree = "<group>"; };
 		84E6038A24AF0E11009B6CAD /* MovieCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCollectionViewCell.swift; sourceTree = "<group>"; };
 		84E6038B24AF0E11009B6CAD /* MovieCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieCollectionViewCell.xib; sourceTree = "<group>"; };
+=======
+		D859F28024AF099B001CD4CA /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		D859F28324AF0A23001CD4CA /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+>>>>>>> origin/khatia
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,11 +95,16 @@
 			isa = PBXGroup;
 			children = (
 <<<<<<< HEAD
+<<<<<<< HEAD
 				84E6038224AF0A3B009B6CAD /* Fonts */,
 				84E6037C24AF0921009B6CAD /* cells */,
 =======
 				4F1E6D1C24AF0A5C00CDA5C6 /* Extension */,
 >>>>>>> 388bc4591208e25438685687cc00095ff8e24d52
+=======
+				D859F28224AF0A16001CD4CA /* Services */,
+				D859F27F24AF098B001CD4CA /* Models */,
+>>>>>>> origin/khatia
 				84E6036524AF0531009B6CAD /* AppDelegate.swift */,
 				84E6036724AF0531009B6CAD /* SceneDelegate.swift */,
 				84E6036924AF0531009B6CAD /* ViewController.swift */,
@@ -103,6 +118,7 @@
 			path = "movie-db";
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		84E6037C24AF0921009B6CAD /* cells */ = {
 			isa = PBXGroup;
 			children = (
@@ -138,6 +154,22 @@
 				84E6038B24AF0E11009B6CAD /* MovieCollectionViewCell.xib */,
 			);
 			path = MovieCell;
+=======
+		D859F27F24AF098B001CD4CA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D859F28024AF099B001CD4CA /* Movie.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D859F28224AF0A16001CD4CA /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D859F28324AF0A23001CD4CA /* APIService.swift */,
+			);
+			path = Services;
+>>>>>>> origin/khatia
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -223,7 +255,12 @@
 				84E6037024AF0531009B6CAD /* movie_db.xcdatamodeld in Sources */,
 				4F1E6D1B24AF096E00CDA5C6 /* TabBarController.swift in Sources */,
 				84E6036824AF0531009B6CAD /* SceneDelegate.swift in Sources */,
+<<<<<<< HEAD
 				4F1E6D1E24AF0A7A00CDA5C6 /* UIColorExtension.swift in Sources */,
+=======
+				D859F28424AF0A23001CD4CA /* APIService.swift in Sources */,
+				D859F28124AF099B001CD4CA /* Movie.swift in Sources */,
+>>>>>>> origin/khatia
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
