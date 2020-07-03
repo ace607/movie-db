@@ -9,10 +9,23 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    var apiService = APIService()
+    
+    var movies = [Movie]()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        apiService.getPopularMovies { (movies) in
+            self.movies.append(contentsOf: movies.movies)
+            //print(movies)
+        }
+        
+        apiService.getTopRatedMovie { (movie) in
+            print(movie)
+        }
+        
     }
 
 

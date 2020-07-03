@@ -14,6 +14,8 @@
 		84E6037024AF0531009B6CAD /* movie_db.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84E6036E24AF0531009B6CAD /* movie_db.xcdatamodeld */; };
 		84E6037224AF0539009B6CAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84E6037124AF0539009B6CAD /* Assets.xcassets */; };
 		84E6037524AF0539009B6CAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E6037324AF0539009B6CAD /* LaunchScreen.storyboard */; };
+		D859F28124AF099B001CD4CA /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = D859F28024AF099B001CD4CA /* Movie.swift */; };
+		D859F28424AF0A23001CD4CA /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D859F28324AF0A23001CD4CA /* APIService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		84E6037124AF0539009B6CAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84E6037424AF0539009B6CAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84E6037624AF0539009B6CAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D859F28024AF099B001CD4CA /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		D859F28324AF0A23001CD4CA /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 		84E6036424AF0531009B6CAD /* movie-db */ = {
 			isa = PBXGroup;
 			children = (
+				D859F28224AF0A16001CD4CA /* Services */,
+				D859F27F24AF098B001CD4CA /* Models */,
 				84E6036524AF0531009B6CAD /* AppDelegate.swift */,
 				84E6036724AF0531009B6CAD /* SceneDelegate.swift */,
 				84E6036924AF0531009B6CAD /* ViewController.swift */,
@@ -68,6 +74,22 @@
 				84E6036E24AF0531009B6CAD /* movie_db.xcdatamodeld */,
 			);
 			path = "movie-db";
+			sourceTree = "<group>";
+		};
+		D859F27F24AF098B001CD4CA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D859F28024AF099B001CD4CA /* Movie.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D859F28224AF0A16001CD4CA /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D859F28324AF0A23001CD4CA /* APIService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,6 +167,8 @@
 				84E6036624AF0531009B6CAD /* AppDelegate.swift in Sources */,
 				84E6037024AF0531009B6CAD /* movie_db.xcdatamodeld in Sources */,
 				84E6036824AF0531009B6CAD /* SceneDelegate.swift in Sources */,
+				D859F28424AF0A23001CD4CA /* APIService.swift in Sources */,
+				D859F28124AF099B001CD4CA /* Movie.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
